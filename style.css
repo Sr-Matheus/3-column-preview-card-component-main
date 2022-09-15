@@ -36,6 +36,7 @@ main
     height: 925px;
 }
 
+
 .sedan
 {
     background-color: var(--bright-orange);
@@ -88,6 +89,20 @@ button
     font-family: 'Lexend Deca', sans-serif;
 }
 
+.btn_suv
+{
+    color: var(--dark-cyan);
+}
+
+.btn_sedan
+{
+    color: var(--bright-orange);
+}
+
+.btn_luxury
+{
+    color: var(--very-dark-cyan);
+}
 button:hover
 {
     background-color: transparent;
