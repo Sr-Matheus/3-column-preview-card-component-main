@@ -75,9 +75,18 @@ h1
 p
 {
     font-family: 'Lexend Deca', sans-serif;
-    margin: 20% 0;
+    margin: 30% 0;
 }
 
+.text
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 0 10% 0;
+}
 
 button
 {
