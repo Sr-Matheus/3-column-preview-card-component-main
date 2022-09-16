@@ -119,7 +119,38 @@ button:hover
     border: solid 2px var(--very-light-gray);
 }
 
+@media only screen and (max-width: 450px)
+{
+
+    body
+    {
+        height: 1000px;
+    }
+
+    main
+    {
+        display: inline-block;
+        /* overflow: scroll; */
+    }
+
+    .sedan
+    {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .text
+    {
+        display: inline-block;
+    }
+
+    footer
+    {
+        display: none;
+    }
 
 
-.attribution { font-size: 11px; text-align: center; }
+
+}
+
+.attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
